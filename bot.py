@@ -1,10 +1,9 @@
+import random
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
-import random
-import os
 
-# Mengambil API Token dari environment variable (GitHub Secrets)
-API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')  # Mengambil token dari GitHub Secrets
+# Ganti dengan API Token Telegram Anda yang didapat dari BotFather
+API_TOKEN = '8011173029:AAETtYiqyLMKgTSyNYvKsxJpMbPQC0kcl0E'  # Ganti dengan token API Anda
 
 # Daftar pesan unik yang akan dibalas oleh bot
 unique_messages = [
@@ -30,7 +29,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Menjalankan bot Telegram dan menunggu pesan dari pengguna."""
-    updater = Updater(os.getenv('TELEGRAM_API_TOKEN'))  # Menggunakan token yang diambil dari environment
+    updater = Updater(API_TOKEN)  # Gunakan API token langsung
     dispatcher = updater.dispatcher
 
     # Menambahkan handler untuk perintah /start, /help, dan pesan lainnya
