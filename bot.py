@@ -30,7 +30,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Menjalankan bot Telegram dan menunggu pesan dari pengguna."""
-    updater = Updater(API_TOKEN)
+    updater = Updater(TELEGRAM_API_TOKEN)
     dispatcher = updater.dispatcher
 
     # Menambahkan handler untuk perintah /start, /help, dan pesan lainnya
