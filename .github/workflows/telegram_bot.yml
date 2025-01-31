@@ -28,4 +28,4 @@ jobs:
       run: |
         python bot.py  # Menjalankan bot langsung
       env:
-        TELEGRAM_API_TOKEN: '8011173029:AAETtYiqyLMKgTSyNYvKsxJpMbPQC0kcl0E'  # Masukkan token API langsung di sini (jika tidak menggunakan secrets)
+        TELEGRAM_API_TOKEN: '7515695303:AAEGslztlvsceODJTmRdDoGhwy0RDJXP04M'  # Masukkan token API langsung di sini (jika tidak menggunakan secrets)
