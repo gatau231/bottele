@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Ganti dengan API Token Telegram Anda yang didapat dari BotFather
-API_TOKEN = '8011173029:AAETtYiqyLMKgTSyNYvKsxJpMbPQC0kcl0E'  # Ganti dengan token API Anda
+API_TOKEN = '7515695303:AAEGslztlvsceODJTmRdDoGhwy0RDJXP04M'  # Ganti dengan token API Anda
 
 # Daftar pesan unik yang akan dibalas oleh bot
 unique_messages = [
